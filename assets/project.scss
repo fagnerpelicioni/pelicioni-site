@@ -1,0 +1,14 @@
+
+.primary-link {
+  text-decoration: none;
+  font-family: $montserrat;
+  font-weight: $font-regular;
+  transition: 1s;
+  color: $gray-400 !important;
+
+  &:hover {
+    transition: 1s;
+    font-weight: $font-bold;
+    color: $primary !important;
+  }
+}

@@ -2,3 +2,30 @@
 //
 // The variables you want to modify
 // $font-size-root: 20px;
+
+$white: #fff;
+$black: #000;
+$primary: #61C6FF;
+$gray-900: #1A1C22;
+$gray-800: #31363F;
+$gray-400: #9DA5B4;
+$background-dark: $gray-900;
+
+$shadow-1: 0 2px 4px 0px rgba(0,0,0,0.12);
+
+$radius-normal: 4px;
+
+$montserrat: 'Montserrat', Arial, sans-serif;
+
+$font-light: 300;
+$font-regular: 500;
+$font-bold: 700;
+$font-black: 900;
+
+$text-xs: .75rem;
+$text-sm: .875rem;
+$text-base: $text-xs;
+$text-lg: 1rem;
+$text-xl: 1.5rem;
+$text-2xl: 2.25rem;
+$text-3xl: 3rem;
