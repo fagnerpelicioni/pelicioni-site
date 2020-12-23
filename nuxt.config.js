@@ -31,6 +31,11 @@ export default {
   plugins: [
   ],
 
+  router: {
+    linkActiveClass: 'menu-active',
+    linkExactActiveClass: 'menu-exact-active'
+  },
+
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
 
@@ -47,8 +52,45 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    'nuxt-i18n'
   ],
+
+  i18n: {
+    lazy: true,
+    locales: [
+      {
+        code: 'en',
+        name: 'English',
+        file: 'en.js'
+      },
+      {
+        code: 'pt',
+        name: 'Português',
+        file: 'pt.js'
+      }
+    ],
+    loadLanguagesAsync: true,
+    defaultLocale: 'pt',
+    langDir: 'locale/',
+    detectBrowserLanguage: false,
+    vueI18n: {
+      fallbackLocale: 'pt'
+    },
+    vuex: {
+      // Module namespace
+      moduleName: 'i18n',
+
+      // If enabled, current app's locale is synced with nuxt-i18n store module
+      syncLocale: true,
+
+      // If enabled, current translation messages are synced with nuxt-i18n store module
+      syncMessages: false,
+
+      // Mutation to commit to set route parameters translations
+      syncRouteParams: true
+    }
+  },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
@@ -68,7 +110,7 @@ export default {
         dark: {
           background: '#1A1C22',
           primary: '#61C6FF',
-          accent: colors.grey.darken3,
+          accent: '#9DA5B4',
           secondary: colors.amber.darken3,
           info: colors.teal.lighten1,
           warning: colors.amber.base,
@@ -76,7 +118,9 @@ export default {
           success: colors.green.accent3
         },
         light: {
-          primary: '#61C6FF'
+          background: '#FFF',
+          primary: '#61C6FF',
+          accent: '#31363F'
         }
       }
     }
