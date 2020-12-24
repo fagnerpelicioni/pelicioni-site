@@ -17,7 +17,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/png', href: '/icon.png' }
     ]
   },
 
@@ -112,6 +112,7 @@ export default {
           background: '#1A1C22',
           primary: '#61C6FF',
           accent: '#9DA5B4',
+          gray: '#31363F',
           secondary: colors.amber.darken3,
           info: colors.teal.lighten1,
           warning: colors.amber.base,
@@ -121,7 +122,8 @@ export default {
         light: {
           background: '#FFF',
           primary: '#61C6FF',
-          accent: '#31363F'
+          accent: '#31363F',
+          gray: '#eeeeee'
         }
       }
     }

@@ -13,7 +13,12 @@
 
 <script>
 export default {
-  name: 'Landing'
+  name: 'Landing',
+
+  created () {
+    // eslint-disable-next-line no-console
+    console.log('%cAntifa Action ⚐⚐', 'color: red; background: #000; padding:15px;')
+  }
 }
 </script>
 

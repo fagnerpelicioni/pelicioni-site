@@ -193,7 +193,7 @@ export default {
     height: 100px;
     margin: .5rem;
     border-radius: $radius-normal;
-    background-color: $gray-800;
+    background-color: var(--v-gray-base);
     display: flex;
     align-items: center;
     justify-content: center;
