@@ -34,3 +34,4 @@ jobs:
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         local-dir: dist # This folder is NOT going to upload by default unless you add it to .git-ftp-include
         git-ftp-args: --insecure
+        git-ftp-include: dist
