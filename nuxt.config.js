@@ -9,8 +9,8 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: 'Pelicioni',
-    title: 'Pelicioni',
+    titleTemplate: 'Fagner Pelicioni',
+    title: 'Fagner Pelicioni',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -52,6 +52,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     'nuxt-i18n'
@@ -90,6 +91,18 @@ export default {
 
       // Mutation to commit to set route parameters translations
       syncRouteParams: true
+    }
+  },
+
+  pwa: {
+    // icon: false,
+    manifest: false,
+    meta: {
+      mobileAppIOS: true,
+      nativeUI: true,
+      author: 'Fagner Pelicioni',
+      theme_color: '#61C6FF',
+      lang: 'pt-BR'
     }
   },
 
