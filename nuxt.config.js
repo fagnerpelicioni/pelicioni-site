@@ -32,6 +32,7 @@ export default {
   ],
 
   router: {
+    base: '/',
     linkActiveClass: 'menu-active',
     linkExactActiveClass: 'menu-exact-active'
   },
