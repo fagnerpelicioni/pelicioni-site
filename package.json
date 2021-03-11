@@ -14,7 +14,7 @@
     "@nuxtjs/axios": "^5.12.2",
     "@nuxtjs/pwa": "^3.3.3",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6",
+    "nuxt": "^2.15.3",
     "nuxt-i18n": "^6.16.0"
   },
   "devDependencies": {
