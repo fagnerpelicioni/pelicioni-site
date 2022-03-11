@@ -14,6 +14,15 @@
       <div class="skills__item">
         <a
           class="card-link"
+          href="https://www.typescriptlang.org/"
+          target="_blank"
+        >
+          <img src="~/static/icons/typescript.svg" alt="Typescript" class="image">
+        </a>
+      </div>
+      <div class="skills__item">
+        <a
+          class="card-link"
           href="https://www.w3schools.com/html/"
           target="_blank"
         >
@@ -60,6 +69,15 @@
       <div class="skills__item">
         <a
           class="card-link"
+          href="https://knockoutjs.com/"
+          target="_blank"
+        >
+          <img src="~/static/icons/knockout.svg" alt="Knockout" class="image">
+        </a>
+      </div>
+      <div class="skills__item">
+        <a
+          class="card-link"
           href="https://www.php.net/manual/pt_BR/intro-whatis.php"
           target="_blank"
         >
@@ -87,10 +105,28 @@
       <div class="skills__item">
         <a
           class="card-link"
+          href="https://vitejs.dev/"
+          target="_blank"
+        >
+          <img src="~/static/icons/vite.svg" alt="Vite" class="image">
+        </a>
+      </div>
+      <div class="skills__item">
+        <a
+          class="card-link"
           href="https://www.npmjs.com/"
           target="_blank"
         >
           <img src="~/static/icons/npm.svg" alt="NPM" class="image">
+        </a>
+      </div>
+      <div class="skills__item">
+        <a
+          class="card-link"
+          href="https://jestjs.io/pt-BR/"
+          target="_blank"
+        >
+          <img src="~/static/icons/jest.svg" alt="Jest" class="image">
         </a>
       </div>
       <div class="skills__item">
@@ -127,6 +163,15 @@
           target="_blank"
         >
           <img src="~/static/icons/bootstrap.svg" alt="Bootstrap" class="image">
+        </a>
+      </div>
+      <div class="skills__item">
+        <a
+          class="card-link"
+          href="https://tailwindcss.com/"
+          target="_blank"
+        >
+          <img src="~/static/icons/tailwind.svg" alt="Tailwind" class="image">
         </a>
       </div>
       <div class="skills__item">

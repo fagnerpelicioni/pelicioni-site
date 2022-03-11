@@ -12,8 +12,13 @@
 </template>
 
 <script>
+import Header from '@/components/common/Header.vue'
 export default {
   name: 'Landing',
+
+  components: {
+    Header
+  },
 
   created () {
     // eslint-disable-next-line no-console
