@@ -96,6 +96,15 @@
       <div class="skills__item">
         <a
           class="card-link"
+          href="https://nodejs.org/en/"
+          target="_blank"
+        >
+          <img src="~/static/icons/node.svg" alt="Node.js" class="image">
+        </a>
+      </div>
+      <div class="skills__item">
+        <a
+          class="card-link"
           href="https://webpack.js.org/"
           target="_blank"
         >
@@ -177,6 +186,15 @@
       <div class="skills__item">
         <a
           class="card-link"
+          href="https://bulma.io/"
+          target="_blank"
+        >
+          <img src="~/static/icons/bulma.svg" alt="Bulma" class="image">
+        </a>
+      </div>
+      <div class="skills__item">
+        <a
+          class="card-link"
           href="https://www.figma.com/"
           target="_blank"
         >
@@ -195,6 +213,15 @@
       <div class="skills__item">
         <a
           class="card-link"
+          href="https://vercel.com/"
+          target="_blank"
+        >
+          <img src="~/static/icons/vercel.svg" alt="Vercel" class="image">
+        </a>
+      </div>
+      <div class="skills__item">
+        <a
+          class="card-link"
           href="https://www.docker.com/"
           target="_blank"
         >
@@ -208,6 +235,15 @@
           target="_blank"
         >
           <img src="~/static/icons/kubernetes.svg" alt="Kubernetes" class="image">
+        </a>
+      </div>
+      <div class="skills__item">
+        <a
+          class="card-link"
+          href="https://www.jenkins.io/"
+          target="_blank"
+        >
+          <img src="~/static/icons/jenkins.svg" alt="Jenkins" class="image">
         </a>
       </div>
     </section>
