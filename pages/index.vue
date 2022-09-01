@@ -113,6 +113,10 @@ export default {
     h1 {
       font-family: $montserrat;
       font-weight: $font-regular;
+
+      @media (max-width: 580px) {
+        padding: 0 4rem;
+      }
     }
   }
 
